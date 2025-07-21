@@ -1,0 +1,70 @@
+ Arrays in C#: 
+ the simple data structure that is used to store 
+ similar types of data items in sequential order. 
+
+ collections:
+ these are predefined classes present in system.Collections namespaces
+ collections are dynamic array(store multiple values)
+ 3 Types
+ ->System.Collections classes
+->System.Collections.Generic classes
+->System.Collections.Concurrent classes
+Non-generic                          Generic
+
+ArrayList     ------------->          List
+
+HashTable  ------------->          Dictionary
+
+SortedList   ------------->          SortedList  
+
+Stack           ------------->          Stack
+
+Queue         ------------->          Queue
+In non-generic collections,
+each element can represent a value of a different type. 
+The collection size is not fixed.
+Items from the collection can be added or removed at runtime.
+
+
+Array:
+Fixed Length
+Cannot insert it into the middle
+Cannot delete from middle
+It is type-safe, so we can store only similar types of data based on the data type.
+Boxing and Unboxing are not required.
+
+ArrayList:
+Variable Length
+Can insert an element into the middle of the collection
+Can delete elements from the middle of the collection
+It is not type-safe, so we can store any type of data.
+Boxing and Unboxing are required as it is operated on the object data type.
+
+
+ArrayList 
+class is a collection used for any types or objects. 
+
+Arraylist is a class similar to an array, but it can store values of various types.
+An Arraylist doesn't have a specific size.
+Any number of elements can be stored.
+
+HashTable:
+similar to arraylist but represents the items as a combination of a key and value.
+
+ SortedList
+It is a class that has the combination of arraylist and hashtable.
+Represents the data as a key and value pair.
+Arranges all the items in sorted order. 
+
+Dictionary:
+
+the Dictionary<TKey, TValue> is a generic collection that stores key-value pairs in no particular order.
+
+Dictionary Characteristics
+Dictionary<TKey, TValue> stores key-value pairs.
+Comes under System.Collections.Generic namespace.
+Implements IDictionary<TKey, TValue> interface.
+Keys must be unique and cannot be null.
+Values can be null or duplicate.
+Values can be accessed by passing associated key in the indexer e.g. myDictionary[key]
+Elements are stored as KeyValuePair<TKey, TValue> objects.

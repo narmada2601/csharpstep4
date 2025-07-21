@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>DictionaryBasics</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,11 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Dictionary\DictionaryBasics.cs" />
+    <Compile Include="Lists\ListBasic.cs" />
+    <Compile Include="UsingArrayList\ArrayListBasics.cs" />
+    <Compile Include="Arrays\ArraysBasics.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UsingArrayList\UsingToArray.cs" />
+    <Compile Include="UsingArrayList\UsinSorting.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
