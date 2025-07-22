@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DictionaryBasics</StartupObject>
+    <StartupObject>DictionaryExample.Books</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dictionary\DictionaryBasics.cs" />
+    <Compile Include="Dictionary\Searchbooks.cs" />
     <Compile Include="Lists\ListBasic.cs" />
     <Compile Include="UsingArrayList\ArrayListBasics.cs" />
     <Compile Include="Arrays\ArraysBasics.cs" />
