@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DictionaryExample.Books</StartupObject>
+    <StartupObject>returntypes</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,8 +47,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dictionary\DictionaryBasics.cs" />
+    <Compile Include="Dictionary\Products.cs" />
     <Compile Include="Dictionary\Searchbooks.cs" />
+    <Compile Include="Hashsets\BasicHashset.cs" />
+    <Compile Include="HashTables\AdvancedHashtable.cs" />
+    <Compile Include="HashTables\example1.cs" />
+    <Compile Include="HashTables\Studenthashtable.cs" />
+    <Compile Include="HashTables\usingHashTables.cs" />
     <Compile Include="Lists\ListBasic.cs" />
+    <Compile Include="tuples\CreatingTuple.cs" />
+    <Compile Include="tuples\returntypes.cs" />
     <Compile Include="UsingArrayList\ArrayListBasics.cs" />
     <Compile Include="Arrays\ArraysBasics.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
